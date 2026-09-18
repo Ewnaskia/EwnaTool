@@ -1,0 +1,10 @@
+# ═══════════════════════════════════════════════════════════════
+# EwnaTool - Python Dependencies
+# Created By 'Ewnaskia
+# Not: Çekirdek özellikler Rust'ta derlenir (bkz. build.sh)
+# ═══════════════════════════════════════════════════════════════
+
+# Opsiyonel (Python modülleri için)
+qrcode>=7.4.2
+paramiko>=3.0.0
+pillow>=9.0.0
