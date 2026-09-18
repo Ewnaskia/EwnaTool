@@ -1,0 +1,197 @@
+# ═══════════════════════════════════════════════════════════════
+# EwnaTool v2.0.0 - Git Ignore Rules
+# Created By 'Ewnaskia
+# ═══════════════════════════════════════════════════════════════
+
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+.hypothesis/
+.py,cover
+*.mo
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# ─────────────────────────────────────────────────────────────
+# Rust / Cargo
+# ─────────────────────────────────────────────────────────────
+target/
+**/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock.bak
+debug/
+release/
+
+# ─────────────────────────────────────────────────────────────
+# Compiled Rust Binaries (build output)
+# ─────────────────────────────────────────────────────────────
+bin/
+bin/*.exe
+bin/*.bin
+
+# ─────────────────────────────────────────────────────────────
+# Virtual Environments
+# ─────────────────────────────────────────────────────────────
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv*/
+virtualenv/
+pyenv/
+.python-version
+
+# ─────────────────────────────────────────────────────────────
+# IDE & Editors
+# ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.history/
+
+# ─────────────────────────────────────────────────────────────
+# Operating System
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ─────────────────────────────────────────────────────────────
+# EwnaTool Output Files
+# ─────────────────────────────────────────────────────────────
+*.enc
+*.part*
+*.b64
+not.txt
+output/
+logs/
+*.log
+reports/
+scan_results/
+flood_stats/
+
+# ─────────────────────────────────────────────────────────────
+# Sensitive / Configuration Files
+# ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+config.json
+secrets.txt
+credentials.txt
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# ─────────────────────────────────────────────────────────────
+# Temporary Files
+# ─────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.cache/
+tmp/
+temp/
+
+# ─────────────────────────────────────────────────────────────
+# Docker
+# ─────────────────────────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
+
+# ─────────────────────────────────────────────────────────────
+# Node (if any web UI added in future)
+# ─────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ─────────────────────────────────────────────────────────────
+# Test / Coverage
+# ─────────────────────────────────────────────────────────────
+tests/output/
+*.test.log
+coverage/
+*.lcov
+
+# ─────────────────────────────────────────────────────────────
+# Rust Documentation
+# ─────────────────────────────────────────────────────────────
+**/doc/
+**/target/doc/
+
+# ─────────────────────────────────────────────────────────────
+# Backup Files
+# ─────────────────────────────────────────────────────────────
+*.bak
+*.orig
+*.rej
+
+# ─────────────────────────────────────────────────────────────
+# Wordlist / Dictionary files (large, keep local)
+# ─────────────────────────────────────────────────────────────
+wordlists/
+*.txt.lst
+rockyou*
